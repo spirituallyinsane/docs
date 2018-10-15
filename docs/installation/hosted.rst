@@ -19,6 +19,8 @@ Considerations when using Heroku
 
 Heroku uses what is called an "ephemeral file system" and it will not be able to store attachments. They will be deleted after some time. Don't use Firefly III on Heroku in combination with sensitive or rare file attachments.
 
+Heroku's free "Hobby tier" only includes 10,000 rows in a MySQL database. If you wish to continue using Heroku beyond this point, you'll need to subscribe to a paid tier with Heroku.
+
 Softaculous
 -----------
 
